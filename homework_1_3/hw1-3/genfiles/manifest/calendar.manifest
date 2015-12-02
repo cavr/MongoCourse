@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Class-Path: gdata-client-1.0.jar gdata-calendar-meta-2.0.jar
+
+Name: com/google/gdata/client/calendar/
+Specification-Title: Google Calendar Data API
+Specification-Version: 2.0
+Specification-Vendor: Google Inc.
+Implementation-Title: Calendar GData client extensions for Java
+Implementation-Version: 2.1.0
+Implementation-Vendor: Google Inc.

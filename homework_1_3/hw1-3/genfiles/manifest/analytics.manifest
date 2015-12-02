@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Class-Path: gdata-client-1.0.jar gdata-analytics-meta-2.1.jar
+
+Name: com/google/gdata/client/analytics/
+Specification-Title: Google Analytics Data API
+Specification-Version: 2.1
+Specification-Vendor: Google Inc.
+Implementation-Title: Analytics GData client extensions for Java
+Implementation-Version: 2.3.0
+Implementation-Vendor: Google Inc.

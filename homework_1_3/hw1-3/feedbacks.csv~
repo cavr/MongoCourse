@@ -1,0 +1,4 @@
+ID,PROGRAM,MODULE,MISSION,PERFIL,TYPE,QUESTION,TEXTMIN,TEXTMAX,MAXVALUE,TEXT,USERPROFILE,COMENTARIOS,ISREVERSESCORED
+1,1,1,1,,NUMERIC,"En los últimos días, ¿cómo te sientes?",Nada motivado,Muy motivado,10,okp,ji,MOTIVACION_GENERAL,ijo
+2,1,1,2,,NUMERIC,"En general, ¿estás satisfecho contigo mismo?",Nada,Totalmente,10,ioj,ijo,AUTOIMAGEN_AUTOESTIMA,jio
+3,1,1,3,,NUMERIC,¿Cómo de vinculado te sientes con el objetivo que te has marcado?,Nada,Totalmente,10,oij,ijo,OBJETIVO_VINCULACION,jio

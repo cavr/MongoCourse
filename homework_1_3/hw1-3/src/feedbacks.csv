@@ -1,0 +1,697 @@
+ID,PROGRAM,MODULE,MISSION,PERFIL,TYPE,QUESTION,TEXT_MIN,TEXT_MAX,MAX_VALUE,TEXT,USER_PROFILE,COMENTARIOS,IS_REVERSE_SCORED
+1,1,1,1,,NUMERIC,"En los últimos días, ¿cómo te sientes?",Nada motivado,Muy motivado,10,,,MOTIVACION_GENERAL,
+2,1,1,2,,NUMERIC,"En general, ¿estás satisfecho contigo mismo?",Nada,Totalmente,10,,,AUTOIMAGEN_AUTOESTIMA,
+3,1,1,3,,NUMERIC,¿Cómo de vinculado te sientes con el objetivo que te has marcado?,Nada,Totalmente,10,,,OBJETIVO_VINCULACION,
+4,1,,,,NUMERIC,"En general, ¿Cómo afrontas situaciones difíciles?",Con negatividad,Con positividad,10,,,ACTITUD_POSITIVIDAD,
+5,1,2,1,,NUMERIC,"En general, ¿Cómo afrontas situaciones difíciles?",Siendo pasivo,Siendo activo,10,,,ACTITUD_DINAMISMO,
+6,1,2,2,,NUMERIC,"En general, ¿Cómo afrontas situaciones difíciles?",Con temor,Con valentía,10,,,ACTITUD_VALENTIA,
+7,1,2,3,,TEXT,¿Qué porcentaje de tu objetivo crees que vas a conseguir?,,,,"0 - 25%
+25 - 50%
+50 - 75%
+75 - 100%
+100 - 125%
+125 - 150%",,OBJETIVO_PROBABILIDAD,
+8,1,,,,NUMERIC,"En una situación laboral difícil, ¿generalmente sabes qué hacer?",Nunca,Siempre,10,,,AUTOIMAGEN_AUTOEFICACIA,
+9,1,3,1,,NUMERIC,"En general, ¿Cómo afrontas situaciones difíciles?",Con pesimismo,Con optimismo,10,,,ACTITUD_POSITIVIDAD,
+10,1,3,2,,NUMERIC,"En general, ¿Cómo afrontas situaciones difíciles?",Con pereza,Con dinamismo,10,,,ACTITUD_DINAMISMO,
+11,1,3,3,,NUMERIC,"En general, ¿Cómo afrontas situaciones difíciles?",Con dudas,Con confianza,10,,,ACTITUD_VALENTIA,
+12,1,,,,NUMERIC,¿Crees que podrías hacer mejor las cosas?,Nunca,Siempre,10,,,AUTOIMAGEN_SUPERACION,
+13,1,4,1,,TEXT,¿Crees que gracias a tus recursos y cualidades puedes superar situaciones imprevistas?,,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,AUTOIMAGEN_AUTOEFICACIA,
+14,1,4,2,,TEXT,"En general, ¿Dirías que eres una persona positiva?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACTITUD_POSITIVIDAD,
+15,1,4,3,,TEXT,"En general, ¿Dirías que eres una persona activa?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACTITUD_DINAMISMO,
+16,1,,,,TEXT,"En general, ¿Dirías que eres una persona valiente?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACTITUD_VALENTIA,
+17,1,5,1,,NUMERIC,¿Cómo de comprometido estás con el plan de acción para lograr tu objetivo?,Nada,Totalmente,10,,,OBJETIVO_COMPROMISO,
+18,1,5,2,,TEXT,¿Consideras que eres capaz de hacer las cosas igual de bien que la mayoría de la gente?,,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,AUTOIMAGEN_AUTOESTIMA,
+19,1,5,3,,TEXT,"En general, ¿Dirías que eres una persona optimista?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACTITUD_POSITIVIDAD,
+20,1,,,,TEXT,"En general, ¿Dirías que eres una persona dinámica?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACTITUD_DINAMISMO,
+21,1,6,1,,TEXT,"En general, ¿Dirías que eres una persona confiada?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACTITUD_VALENTIA,
+22,1,6,2,,TEXT,Elige una frase que simbolice cómo quieres comprometerte con tu objetivo,,,,"Con fuerza
+Con determinación
+Sin descanso
+Sin tregua",VERDADERO,,
+23,1,6,3,,NUMERIC,¿Cómo de vinculado te sientes con el objetivo que te has marcado?,Nada,Totalmente,10,,,OBJETIVO_VINCULACION,
+24,1,,,,NUMERIC,¿Crees que podrías hacer mejor las cosas?,Nunca,Siempre,10,,,AUTOIMAGEN_SUPERACION,
+25,1,7,1,PROFILE_A,OPTION,¿Cómo de vinculado te sientes con el objetivo que te has marcado?,,,,"Nada
+Algo
+Mucho
+Bastante",,OBJETIVO_VINCULACION,
+26,1,,,,TEXT,"En general, ¿Buscas formas de superar tus propias metas?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,AUTOIMAGEN_SUPERACION,
+27,1,7,2,PROFILE_A,TEXT,"En general, ¿Consideras que aplazas tomar decisiones?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_TOMA,X
+28,1,,,,TEXT,"En los últimos días, ¿cómo de motivado te sientes?",,,,"Nada
+Algo
+Mucho
+Totalmente",,MOTIVACION_PERSONAL,
+29,1,7,3,PROFILE_A,TEXT,¿Qué porcentaje de tu objetivo crees que vas a conseguir?,,,,"0 - 25%
+25 - 50%
+50 - 75%
+75 - 100%
+100 - 125%
+125 - 150%",,OBJETIVO_PROBABILIDAD,
+30,1,,,,TEXT,"Generalmente, ¿Retrasas poner en práctica una decisión que ya has tomado?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_EJECUCION,X
+31,1,8,1,PROFILE_A,OPTION,¿Te sientes comprometido con el plan de acción para lograr tu objetivo?,No,Sí,,,,OBJETIVO_COMPROMISO,
+32,1,,,,OPTION,¿Cómo de vinculado te sientes con el objetivo que te has marcado?,,,,"Nada
+Algo
+Mucho
+Bastante",,OBJETIVO_VINCULACION,
+33,1,8,2,PROFILE_A,TEXT,"Antes de tomar una decisión, ¿Evalúas todos los detalles, aunque sean triviales?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_TOMA,X
+34,1,,,,TEXT,"En general, ¿Buscas formas de superar tus propias metas?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,AUTOIMAGEN_SUPERACION,
+35,1,8,3,PROFILE_A,TEXT,Estoy involucrado con mi trabajo...,,,,"Porque disfruto de las actividades diarias que desarrollo
+Por la satisfacción que siento al proponerme y lograr retos
+Por el reconocimiento que obtengo
+Porque me aporta seguridad o un buen estilo de vida",,MOTIVACION_LABORAL,
+36,1,,,,OPTION,¿Crees que puedes resolver problemas difíciles si te esfuerzas lo suficiente?,No,Sí,,,,AUTOIMAGEN_AUTOEFICACIA,
+37,1,9,1,PROFILE_A,TEXT,¿Qué porcentaje de tu objetivo crees que vas a conseguir?,,,,"0 - 25%
+25 - 50%
+50 - 75%
+75 - 100%
+100 - 125%
+125 - 150%",,OBJETIVO_PROBABILIDAD,
+38,1,,,,OPTION,¿Crees que has aumentado tu deseo de mejorar?,No,Sí,,,,AUTOIMAGEN_SUPERACION,
+39,1,9,2,PROFILE_A,OPTION,¿Te sientes más vinculado con tu objetivo?,No,Sí,,,,OBJETIVO_VINCULACION,
+40,1,,,,TEXT,¿Sueles pensar que es demasiado tarde para hacer las cosas que decidiste?,,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_EJECUCION,X
+41,1,9,3,PROFILE_A,OPTION,¿Crees que tienes una actitud más positiva hacia ti mismo?,No,Sí,,,,AUTOIMAGEN_AUTOESTIMA,
+42,1,,,,OPTION,¿Te sientes ahora más comprometido con el plan de acción para lograr tu objetivo?,No,Sí,,,,OBJETIVO_COMPROMISO,
+43,1,10,1,PROFILE_A,OPTION,¿Te sientes más positivo frente a tu entorno?,No,Sí,,,,ACTITUD_POSITIVIDAD,
+44,1,,,,OPTION,¿Te sientes más vinculado con tu objetivo?,No,Sí,,,,OBJETIVO_VINCULACION,
+45,1,10,2,PROFILE_A,OPTION,¿Te sientes más activo en tu entorno?,No,Sí,,,,ACTITUD_DINAMISMO,
+46,1,,,,OPTION,"En general, ¿Te sientes más motivado?",No,Sí,,,,MOTIVACION_PERSONAL,
+47,1,10,3,PROFILE_A,OPTION,¿Te sientes más capaz de enfrentarte a los rechazos?,No,Sí,,,,ACTITUD_VALENTIA,
+48,1,,,,OPTION,¿Te gustaría seguir con Yump?,No,Sí,,,,,
+49,1,7,1,PROFILE_B,OPTION,¿Cómo de vinculado te sientes con el objetivo que te has marcado?,,,,"Nada
+Algo
+Mucho
+Bastante",,OBJETIVO_VINCULACION,
+50,1,,,,TEXT,"En general, ¿Buscas formas de superar tus propias metas?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,AUTOIMAGEN_SUPERACION,
+51,1,7,2,PROFILE_B,TEXT,"En general, ¿Consideras que aplazas tomar decisiones?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_TOMA,X
+52,1,,,,TEXT,"En los últimos días, ¿cómo de motivado te sientes?",,,,"Nada
+Algo
+Mucho
+Totalmente",,MOTIVACION_PERSONAL,
+53,1,7,3,PROFILE_B,TEXT,¿Qué porcentaje de tu objetivo crees que vas a conseguir?,,,,"0 - 25%
+25 - 50%
+50 - 75%
+75 - 100%
+100 - 125%
+125 - 150%",,OBJETIVO_PROBABILIDAD,
+54,1,,,,TEXT,"Generalmente, ¿Retrasas poner en práctica una decisión que ya has tomado?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_EJECUCION,X
+55,1,8,1,PROFILE_B,OPTION,¿Te sientes comprometido con el plan de acción para lograr tu objetivo?,No,Sí,,,,OBJETIVO_COMPROMISO,
+56,1,,,,OPTION,¿Cómo de vinculado te sientes con el objetivo que te has marcado?,,,,"Nada
+Algo
+Mucho
+Bastante",,OBJETIVO_VINCULACION,
+57,1,8,2,PROFILE_B,TEXT,"Antes de tomar una decisión, ¿Evalúas todos los detalles, aunque sean triviales?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_TOMA,X
+58,1,,,,TEXT,"En general, ¿Buscas formas de superar tus propias metas?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,AUTOIMAGEN_SUPERACION,
+59,1,8,3,PROFILE_B,TEXT,Estoy involucrado con mi trabajo...,,,,"Porque disfruto de las actividades diarias que desarrollo
+Por la satisfacción que siento al proponerme y lograr retos
+Por el reconocimiento que obtengo
+Porque me aporta seguridad o un buen estilo de vida",,MOTIVACION_LABORAL,
+60,1,,,,OPTION,¿Crees que puedes resolver problemas difíciles si te esfuerzas lo suficiente?,No,Sí,,,,AUTOIMAGEN_AUTOEFICACIA,
+61,1,9,1,PROFILE_B,TEXT,¿Qué porcentaje de tu objetivo crees que vas a conseguir?,,,,"0 - 25%
+25 - 50%
+50 - 75%
+75 - 100%
+100 - 125%
+125 - 150%",,OBJETIVO_PROBABILIDAD,
+62,1,,,,OPTION,¿Crees que has aumentado tu deseo de mejorar?,No,Sí,,,,AUTOIMAGEN_SUPERACION,
+63,1,9,2,PROFILE_B,OPTION,¿Te sientes más vinculado con tu objetivo?,No,Sí,,,,OBJETIVO_VINCULACION,
+64,1,,,,TEXT,¿Sueles pensar que es demasiado tarde para hacer las cosas que decidiste?,,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_EJECUCION,X
+65,1,9,3,PROFILE_B,OPTION,¿Crees que tienes una actitud más positiva hacia ti mismo?,No,Sí,,,,AUTOIMAGEN_AUTOESTIMA,
+66,1,,,,OPTION,¿Te sientes ahora más comprometido con el plan de acción para lograr tu objetivo?,No,Sí,,,,OBJETIVO_COMPROMISO,
+67,1,10,1,PROFILE_B,OPTION,¿Te sientes más positivo frente a tu entorno?,No,Sí,,,,ACTITUD_POSITIVIDAD,
+68,1,,,,OPTION,¿Te sientes más vinculado con tu objetivo?,No,Sí,,,,OBJETIVO_VINCULACION,
+69,1,10,2,PROFILE_B,OPTION,¿Te sientes más activo en tu entorno?,No,Sí,,,,ACTITUD_DINAMISMO,
+70,1,,,,OPTION,"En general, ¿Te sientes más motivado?",No,Sí,,,,MOTIVACION_PERSONAL,
+71,1,10,3,PROFILE_B,OPTION,¿Te sientes más capaz de enfrentarte a los rechazos?,No,Sí,,,,ACTITUD_VALENTIA,
+72,1,,,,OPTION,¿Te gustaría seguir con Yump?,No,Sí,,,,,
+73,1,7,1,PROFILE_C,OPTION,¿Cómo de vinculado te sientes con el objetivo que te has marcado?,,,,"Nada
+Algo
+Mucho
+Bastante",,OBJETIVO_VINCULACION,
+74,1,,,,TEXT,"En general, ¿Buscas formas de superar tus propias metas?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,AUTOIMAGEN_SUPERACION,
+75,1,7,2,PROFILE_C,TEXT,"En general, ¿Consideras que aplazas tomar decisiones?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_TOMA,X
+76,1,,,,TEXT,"En los últimos días, ¿cómo de motivado te sientes?",,,,"Nada
+Algo
+Mucho
+Totalmente",,MOTIVACION_PERSONAL,
+77,1,7,3,PROFILE_C,TEXT,¿Qué porcentaje de tu objetivo crees que vas a conseguir?,,,,"0 - 25%
+25 - 50%
+50 - 75%
+75 - 100%
+100 - 125%
+125 - 150%",,OBJETIVO_PROBABILIDAD,
+78,1,,,,TEXT,"Generalmente, ¿Retrasas poner en práctica una decisión que ya has tomado?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_EJECUCION,X
+79,1,8,1,PROFILE_C,OPTION,¿Te sientes comprometido con el plan de acción para lograr tu objetivo?,No,Sí,,,,OBJETIVO_COMPROMISO,
+80,1,,,,OPTION,¿Cómo de vinculado te sientes con el objetivo que te has marcado?,,,,"Nada
+Algo
+Mucho
+Bastante",,OBJETIVO_VINCULACION,
+81,1,8,2,PROFILE_C,TEXT,"Antes de tomar una decisión, ¿Evalúas todos los detalles, aunque sean triviales?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_TOMA,X
+82,1,,,,TEXT,"En general, ¿Buscas formas de superar tus propias metas?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,AUTOIMAGEN_SUPERACION,
+83,1,8,3,PROFILE_C,TEXT,Estoy involucrado con mi trabajo...,,,,"Porque disfruto de las actividades diarias que desarrollo
+Por la satisfacción que siento al proponerme y lograr retos
+Por el reconocimiento que obtengo
+Porque me aporta seguridad o un buen estilo de vida",,MOTIVACION_LABORAL,
+84,1,,,,OPTION,¿Crees que puedes resolver problemas difíciles si te esfuerzas lo suficiente?,No,Sí,,,,AUTOIMAGEN_AUTOEFICACIA,
+85,1,9,1,PROFILE_C,TEXT,¿Qué porcentaje de tu objetivo crees que vas a conseguir?,,,,"0 - 25%
+25 - 50%
+50 - 75%
+75 - 100%
+100 - 125%
+125 - 150%",,OBJETIVO_PROBABILIDAD,
+86,1,,,,OPTION,¿Crees que has aumentado tu deseo de mejorar?,No,Sí,,,,AUTOIMAGEN_SUPERACION,
+87,1,9,2,PROFILE_C,OPTION,¿Te sientes más vinculado con tu objetivo?,No,Sí,,,,OBJETIVO_VINCULACION,
+88,1,,,,TEXT,¿Sueles pensar que es demasiado tarde para hacer las cosas que decidiste?,,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_EJECUCION,X
+89,1,9,3,PROFILE_C,OPTION,¿Crees que tienes una actitud más positiva hacia ti mismo?,No,Sí,,,,AUTOIMAGEN_AUTOESTIMA,
+90,1,,,,OPTION,¿Te sientes ahora más comprometido con el plan de acción para lograr tu objetivo?,No,Sí,,,,OBJETIVO_COMPROMISO,
+91,1,10,1,PROFILE_C,OPTION,¿Te sientes más positivo frente a tu entorno?,No,Sí,,,,ACTITUD_POSITIVIDAD,
+92,1,,,,OPTION,¿Te sientes más vinculado con tu objetivo?,No,Sí,,,,OBJETIVO_VINCULACION,
+93,1,10,2,PROFILE_C,OPTION,¿Te sientes más activo en tu entorno?,No,Sí,,,,ACTITUD_DINAMISMO,
+94,1,,,,OPTION,"En general, ¿Te sientes más motivado?",No,Sí,,,,MOTIVACION_PERSONAL,
+95,1,10,3,PROFILE_C,OPTION,¿Te sientes más capaz de enfrentarte a los rechazos?,No,Sí,,,,ACTITUD_VALENTIA,
+96,1,,,,OPTION,¿Te gustaría seguir con Yump?,No,Sí,,,,,
+97,1,7,1,PROFILE_D,OPTION,¿Cómo de vinculado te sientes con el objetivo que te has marcado?,,,,"Nada
+Algo
+Mucho
+Bastante",,OBJETIVO_VINCULACION,
+98,1,,,,TEXT,"En general, ¿Buscas formas de superar tus propias metas?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,AUTOIMAGEN_SUPERACION,
+99,1,7,2,PROFILE_D,TEXT,"En general, ¿Consideras que aplazas tomar decisiones?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_TOMA,X
+100,1,,,,TEXT,"En los últimos días, ¿cómo de motivado te sientes?",,,,"Nada
+Algo
+Mucho
+Totalmente",,MOTIVACION_PERSONAL,
+101,1,7,3,PROFILE_D,TEXT,¿Qué porcentaje de tu objetivo crees que vas a conseguir?,,,,"0 - 25%
+25 - 50%
+50 - 75%
+75 - 100%
+100 - 125%
+125 - 150%",,OBJETIVO_PROBABILIDAD,
+102,1,,,,TEXT,"Generalmente, ¿Retrasas poner en práctica una decisión que ya has tomado?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_EJECUCION,X
+103,1,8,1,PROFILE_D,OPTION,¿Te sientes comprometido con el plan de acción para lograr tu objetivo?,No,Sí,,,,OBJETIVO_COMPROMISO,
+104,1,,,,OPTION,¿Cómo de vinculado te sientes con el objetivo que te has marcado?,,,,"Nada
+Algo
+Mucho
+Bastante",,OBJETIVO_VINCULACION,
+105,1,8,2,PROFILE_D,TEXT,"Antes de tomar una decisión, ¿Evalúas todos los detalles, aunque sean triviales?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_TOMA,X
+106,1,,,,TEXT,"En general, ¿Buscas formas de superar tus propias metas?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,AUTOIMAGEN_SUPERACION,
+107,1,8,3,PROFILE_D,TEXT,Estoy involucrado con mi trabajo...,,,,"Porque disfruto de las actividades diarias que desarrollo
+Por la satisfacción que siento al proponerme y lograr retos
+Por el reconocimiento que obtengo
+Porque me aporta seguridad o un buen estilo de vida",,MOTIVACION_LABORAL,
+108,1,,,,OPTION,¿Crees que puedes resolver problemas difíciles si te esfuerzas lo suficiente?,No,Sí,,,,AUTOIMAGEN_AUTOEFICACIA,
+109,1,9,1,PROFILE_D,TEXT,¿Qué porcentaje de tu objetivo crees que vas a conseguir?,,,,"0 - 25%
+25 - 50%
+50 - 75%
+75 - 100%
+100 - 125%
+125 - 150%",,OBJETIVO_PROBABILIDAD,
+110,1,,,,OPTION,¿Crees que has aumentado tu deseo de mejorar?,No,Sí,,,,AUTOIMAGEN_SUPERACION,
+111,1,9,2,PROFILE_D,OPTION,¿Te sientes más vinculado con tu objetivo?,No,Sí,,,,OBJETIVO_VINCULACION,
+112,1,,,,TEXT,¿Sueles pensar que es demasiado tarde para hacer las cosas que decidiste?,,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_EJECUCION,X
+113,1,9,3,PROFILE_D,OPTION,¿Crees que tienes una actitud más positiva hacia ti mismo?,No,Sí,,,,AUTOIMAGEN_AUTOESTIMA,
+114,1,,,,OPTION,¿Te sientes ahora más comprometido con el plan de acción para lograr tu objetivo?,No,Sí,,,,OBJETIVO_COMPROMISO,
+115,1,10,1,PROFILE_D,OPTION,¿Te sientes más positivo frente a tu entorno?,No,Sí,,,,ACTITUD_POSITIVIDAD,
+116,1,,,,OPTION,¿Te sientes más vinculado con tu objetivo?,No,Sí,,,,OBJETIVO_VINCULACION,
+117,1,10,2,PROFILE_D,OPTION,¿Te sientes más activo en tu entorno?,No,Sí,,,,ACTITUD_DINAMISMO,
+118,1,,,,OPTION,"En general, ¿Te sientes más motivado?",No,Sí,,,,MOTIVACION_PERSONAL,
+119,1,10,3,PROFILE_D,OPTION,¿Te sientes más capaz de enfrentarte a los rechazos?,No,Sí,,,,ACTITUD_VALENTIA,
+120,1,,,,OPTION,¿Te gustaría seguir con Yump?,No,Sí,,,,,
+121,1,7,1,PROFILE_E,OPTION,¿Cómo de vinculado te sientes con el objetivo que te has marcado?,,,,"Nada
+Algo
+Mucho
+Bastante",,OBJETIVO_VINCULACION,
+122,1,,,,TEXT,"En general, ¿Buscas formas de superar tus propias metas?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,AUTOIMAGEN_SUPERACION,
+123,1,7,2,PROFILE_E,TEXT,"En general, ¿Consideras que aplazas tomar decisiones?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_TOMA,X
+124,1,,,,TEXT,"En los últimos días, ¿cómo de motivado te sientes?",,,,"Nada
+Algo
+Mucho
+Totalmente",,MOTIVACION_PERSONAL,
+125,1,7,3,PROFILE_E,TEXT,¿Qué porcentaje de tu objetivo crees que vas a conseguir?,,,,"0 - 25%
+25 - 50%
+50 - 75%
+75 - 100%
+100 - 125%
+125 - 150%",,OBJETIVO_PROBABILIDAD,
+126,1,,,,TEXT,"Generalmente, ¿Retrasas poner en práctica una decisión que ya has tomado?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_EJECUCION,X
+127,1,8,1,PROFILE_E,OPTION,¿Te sientes comprometido con el plan de acción para lograr tu objetivo?,No,Sí,,,,OBJETIVO_COMPROMISO,
+128,1,,,,OPTION,¿Cómo de vinculado te sientes con el objetivo que te has marcado?,,,,"Nada
+Algo
+Mucho
+Bastante",,OBJETIVO_VINCULACION,
+129,1,8,2,PROFILE_E,TEXT,"Antes de tomar una decisión, ¿Evalúas todos los detalles, aunque sean triviales?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_TOMA,X
+130,1,,,,TEXT,"En general, ¿Buscas formas de superar tus propias metas?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,AUTOIMAGEN_SUPERACION,
+131,1,8,3,PROFILE_E,TEXT,Estoy involucrado con mi trabajo...,,,,"Porque disfruto de las actividades diarias que desarrollo
+Por la satisfacción que siento al proponerme y lograr retos
+Por el reconocimiento que obtengo
+Porque me aporta seguridad o un buen estilo de vida",,MOTIVACION_LABORAL,
+132,1,,,,OPTION,¿Crees que puedes resolver problemas difíciles si te esfuerzas lo suficiente?,No,Sí,,,,AUTOIMAGEN_AUTOEFICACIA,
+133,1,9,1,PROFILE_E,TEXT,¿Qué porcentaje de tu objetivo crees que vas a conseguir?,,,,"0 - 25%
+25 - 50%
+50 - 75%
+75 - 100%
+100 - 125%
+125 - 150%",,OBJETIVO_PROBABILIDAD,
+134,1,,,,OPTION,¿Crees que has aumentado tu deseo de mejorar?,No,Sí,,,,AUTOIMAGEN_SUPERACION,
+135,1,9,2,PROFILE_E,OPTION,¿Te sientes más vinculado con tu objetivo?,No,Sí,,,,OBJETIVO_VINCULACION,
+136,1,,,,TEXT,¿Sueles pensar que es demasiado tarde para hacer las cosas que decidiste?,,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_EJECUCION,X
+137,1,9,3,PROFILE_E,OPTION,¿Crees que tienes una actitud más positiva hacia ti mismo?,No,Sí,,,,AUTOIMAGEN_AUTOESTIMA,
+138,1,,,,OPTION,¿Te sientes ahora más comprometido con el plan de acción para lograr tu objetivo?,No,Sí,,,,OBJETIVO_COMPROMISO,
+139,1,10,1,PROFILE_E,OPTION,¿Te sientes más positivo frente a tu entorno?,No,Sí,,,,ACTITUD_POSITIVIDAD,
+140,1,,,,OPTION,¿Te sientes más vinculado con tu objetivo?,No,Sí,,,,OBJETIVO_VINCULACION,
+141,1,10,2,PROFILE_E,OPTION,¿Te sientes más activo en tu entorno?,No,Sí,,,,ACTITUD_DINAMISMO,
+142,1,,,,OPTION,"En general, ¿Te sientes más motivado?",No,Sí,,,,MOTIVACION_PERSONAL,
+143,1,10,3,PROFILE_E,OPTION,¿Te sientes más capaz de enfrentarte a los rechazos?,No,Sí,,,,ACTITUD_VALENTIA,
+144,1,,,,OPTION,¿Te gustaría seguir con Yump?,No,Sí,,,,,
+145,1,7,1,PROFILE_F,OPTION,¿Cómo de vinculado te sientes con el objetivo que te has marcado?,,,,"Nada
+Algo
+Mucho
+Bastante",,OBJETIVO_VINCULACION,
+146,1,,,,TEXT,"En general, ¿Buscas formas de superar tus propias metas?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,AUTOIMAGEN_SUPERACION,
+147,1,7,2,PROFILE_F,TEXT,"En general, ¿Consideras que aplazas tomar decisiones?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_TOMA,X
+148,1,,,,TEXT,"En los últimos días, ¿cómo de motivado te sientes?",,,,"Nada
+Algo
+Mucho
+Totalmente",,MOTIVACION_PERSONAL,
+149,1,7,3,PROFILE_F,TEXT,¿Qué porcentaje de tu objetivo crees que vas a conseguir?,,,,"0 - 25%
+25 - 50%
+50 - 75%
+75 - 100%
+100 - 125%
+125 - 150%",,OBJETIVO_PROBABILIDAD,
+150,1,,,,TEXT,"Generalmente, ¿Retrasas poner en práctica una decisión que ya has tomado?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_EJECUCION,X
+151,1,8,1,PROFILE_F,OPTION,¿Te sientes comprometido con el plan de acción para lograr tu objetivo?,No,Sí,,,,OBJETIVO_COMPROMISO,
+152,1,,,,OPTION,¿Cómo de vinculado te sientes con el objetivo que te has marcado?,,,,"Nada
+Algo
+Mucho
+Bastante",,OBJETIVO_VINCULACION,
+153,1,8,2,PROFILE_F,TEXT,"Antes de tomar una decisión, ¿Evalúas todos los detalles, aunque sean triviales?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_TOMA,X
+154,1,,,,TEXT,"En general, ¿Buscas formas de superar tus propias metas?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,AUTOIMAGEN_SUPERACION,
+155,1,8,3,PROFILE_F,TEXT,Estoy involucrado con mi trabajo...,,,,"Porque disfruto de las actividades diarias que desarrollo
+Por la satisfacción que siento al proponerme y lograr retos
+Por el reconocimiento que obtengo
+Porque me aporta seguridad o un buen estilo de vida",,MOTIVACION_LABORAL,
+156,1,,,,OPTION,¿Crees que puedes resolver problemas difíciles si te esfuerzas lo suficiente?,No,Sí,,,,AUTOIMAGEN_AUTOEFICACIA,
+157,1,9,1,PROFILE_F,TEXT,¿Qué porcentaje de tu objetivo crees que vas a conseguir?,,,,"0 - 25%
+25 - 50%
+50 - 75%
+75 - 100%
+100 - 125%
+125 - 150%",,OBJETIVO_PROBABILIDAD,
+158,1,,,,OPTION,¿Crees que has aumentado tu deseo de mejorar?,No,Sí,,,,AUTOIMAGEN_SUPERACION,
+159,1,9,2,PROFILE_F,OPTION,¿Te sientes más vinculado con tu objetivo?,No,Sí,,,,OBJETIVO_VINCULACION,
+160,1,,,,TEXT,¿Sueles pensar que es demasiado tarde para hacer las cosas que decidiste?,,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_EJECUCION,X
+161,1,9,3,PROFILE_F,OPTION,¿Crees que tienes una actitud más positiva hacia ti mismo?,No,Sí,,,,AUTOIMAGEN_AUTOESTIMA,
+162,1,,,,OPTION,¿Te sientes ahora más comprometido con el plan de acción para lograr tu objetivo?,No,Sí,,,,OBJETIVO_COMPROMISO,
+163,1,10,1,PROFILE_F,OPTION,¿Te sientes más positivo frente a tu entorno?,No,Sí,,,,ACTITUD_POSITIVIDAD,
+164,1,,,,OPTION,¿Te sientes más vinculado con tu objetivo?,No,Sí,,,,OBJETIVO_VINCULACION,
+165,1,10,2,PROFILE_F,OPTION,¿Te sientes más activo en tu entorno?,No,Sí,,,,ACTITUD_DINAMISMO,
+166,1,,,,OPTION,"En general, ¿Te sientes más motivado?",No,Sí,,,,MOTIVACION_PERSONAL,
+167,1,10,3,PROFILE_F,OPTION,¿Te sientes más capaz de enfrentarte a los rechazos?,No,Sí,,,,ACTITUD_VALENTIA,
+168,1,,,,OPTION,¿Te gustaría seguir con Yump?,No,Sí,,,,,
+169,1,7,1,PROFILE_G,OPTION,¿Cómo de vinculado te sientes con el objetivo que te has marcado?,,,,"Nada
+Algo
+Mucho
+Bastante",,OBJETIVO_VINCULACION,
+170,1,,,,TEXT,"En general, ¿Buscas formas de superar tus propias metas?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,AUTOIMAGEN_SUPERACION,
+171,1,7,2,PROFILE_G,TEXT,"En general, ¿Consideras que aplazas tomar decisiones?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_TOMA,X
+172,1,,,,TEXT,"En los últimos días, ¿cómo de motivado te sientes?",,,,"Nada
+Algo
+Mucho
+Totalmente",,MOTIVACION_PERSONAL,
+173,1,7,3,PROFILE_G,TEXT,¿Qué porcentaje de tu objetivo crees que vas a conseguir?,,,,"0 - 25%
+25 - 50%
+50 - 75%
+75 - 100%
+100 - 125%
+125 - 150%",,OBJETIVO_PROBABILIDAD,
+174,1,,,,TEXT,"Generalmente, ¿Retrasas poner en práctica una decisión que ya has tomado?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_EJECUCION,X
+175,1,8,1,PROFILE_G,OPTION,¿Te sientes comprometido con el plan de acción para lograr tu objetivo?,No,Sí,,,,OBJETIVO_COMPROMISO,
+176,1,,,,OPTION,¿Cómo de vinculado te sientes con el objetivo que te has marcado?,,,,"Nada
+Algo
+Mucho
+Bastante",,OBJETIVO_VINCULACION,
+177,1,8,2,PROFILE_G,TEXT,"Antes de tomar una decisión, ¿Evalúas todos los detalles, aunque sean triviales?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_TOMA,X
+178,1,,,,TEXT,"En general, ¿Buscas formas de superar tus propias metas?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,AUTOIMAGEN_SUPERACION,
+179,1,8,3,PROFILE_G,TEXT,Estoy involucrado con mi trabajo...,,,,"Porque disfruto de las actividades diarias que desarrollo
+Por la satisfacción que siento al proponerme y lograr retos
+Por el reconocimiento que obtengo
+Porque me aporta seguridad o un buen estilo de vida",,MOTIVACION_LABORAL,
+180,1,,,,OPTION,¿Crees que puedes resolver problemas difíciles si te esfuerzas lo suficiente?,No,Sí,,,,AUTOIMAGEN_AUTOEFICACIA,
+181,1,9,1,PROFILE_G,TEXT,¿Qué porcentaje de tu objetivo crees que vas a conseguir?,,,,"0 - 25%
+25 - 50%
+50 - 75%
+75 - 100%
+100 - 125%
+125 - 150%",,OBJETIVO_PROBABILIDAD,
+182,1,,,,OPTION,¿Crees que has aumentado tu deseo de mejorar?,No,Sí,,,,AUTOIMAGEN_SUPERACION,
+183,1,9,2,PROFILE_G,OPTION,¿Te sientes más vinculado con tu objetivo?,No,Sí,,,,OBJETIVO_VINCULACION,
+184,1,,,,TEXT,¿Sueles pensar que es demasiado tarde para hacer las cosas que decidiste?,,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_EJECUCION,X
+185,1,9,3,PROFILE_G,OPTION,¿Crees que tienes una actitud más positiva hacia ti mismo?,No,Sí,,,,AUTOIMAGEN_AUTOESTIMA,
+186,1,,,,OPTION,¿Te sientes ahora más comprometido con el plan de acción para lograr tu objetivo?,No,Sí,,,,OBJETIVO_COMPROMISO,
+187,1,10,1,PROFILE_G,OPTION,¿Te sientes más positivo frente a tu entorno?,No,Sí,,,,ACTITUD_POSITIVIDAD,
+188,1,,,,OPTION,¿Te sientes más vinculado con tu objetivo?,No,Sí,,,,OBJETIVO_VINCULACION,
+189,1,10,2,PROFILE_G,OPTION,¿Te sientes más activo en tu entorno?,No,Sí,,,,ACTITUD_DINAMISMO,
+190,1,,,,OPTION,"En general, ¿Te sientes más motivado?",No,Sí,,,,MOTIVACION_PERSONAL,
+191,1,10,3,PROFILE_G,OPTION,¿Te sientes más capaz de enfrentarte a los rechazos?,No,Sí,,,,ACTITUD_VALENTIA,
+192,1,,,,OPTION,¿Te gustaría seguir con Yump?,No,Sí,,,,,
+193,1,7,1,PROFILE_H,OPTION,¿Cómo de vinculado te sientes con el objetivo que te has marcado?,,,,"Nada
+Algo
+Mucho
+Bastante",,OBJETIVO_VINCULACION,
+194,1,,,,TEXT,"En general, ¿Buscas formas de superar tus propias metas?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,AUTOIMAGEN_SUPERACION,
+195,1,7,2,PROFILE_H,TEXT,"En general, ¿Consideras que aplazas tomar decisiones?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_TOMA,X
+196,1,,,,TEXT,"En los últimos días, ¿cómo de motivado te sientes?",,,,"Nada
+Algo
+Mucho
+Totalmente",,MOTIVACION_PERSONAL,
+197,1,7,3,PROFILE_H,TEXT,¿Qué porcentaje de tu objetivo crees que vas a conseguir?,,,,"0 - 25%
+25 - 50%
+50 - 75%
+75 - 100%
+100 - 125%
+125 - 150%",,OBJETIVO_PROBABILIDAD,
+198,1,,,,TEXT,"Generalmente, ¿Retrasas poner en práctica una decisión que ya has tomado?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_EJECUCION,X
+199,1,8,1,PROFILE_H,OPTION,¿Te sientes comprometido con el plan de acción para lograr tu objetivo?,No,Sí,,,,OBJETIVO_COMPROMISO,
+200,1,,,,OPTION,¿Cómo de vinculado te sientes con el objetivo que te has marcado?,,,,"Nada
+Algo
+Mucho
+Bastante",,OBJETIVO_VINCULACION,
+201,1,8,2,PROFILE_H,TEXT,"Antes de tomar una decisión, ¿Evalúas todos los detalles, aunque sean triviales?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_TOMA,X
+202,1,,,,TEXT,"En general, ¿Buscas formas de superar tus propias metas?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,AUTOIMAGEN_SUPERACION,
+203,1,8,3,PROFILE_H,TEXT,Estoy involucrado con mi trabajo...,,,,"Porque disfruto de las actividades diarias que desarrollo
+Por la satisfacción que siento al proponerme y lograr retos
+Por el reconocimiento que obtengo
+Porque me aporta seguridad o un buen estilo de vida",,MOTIVACION_LABORAL,
+204,1,,,,OPTION,¿Crees que puedes resolver problemas difíciles si te esfuerzas lo suficiente?,No,Sí,,,,AUTOIMAGEN_AUTOEFICACIA,
+205,1,9,1,PROFILE_H,TEXT,¿Qué porcentaje de tu objetivo crees que vas a conseguir?,,,,"0 - 25%
+25 - 50%
+50 - 75%
+75 - 100%
+100 - 125%
+125 - 150%",,OBJETIVO_PROBABILIDAD,
+206,1,,,,OPTION,¿Crees que has aumentado tu deseo de mejorar?,No,Sí,,,,AUTOIMAGEN_SUPERACION,
+207,1,9,2,PROFILE_H,OPTION,¿Te sientes más vinculado con tu objetivo?,No,Sí,,,,OBJETIVO_VINCULACION,
+208,1,,,,TEXT,¿Sueles pensar que es demasiado tarde para hacer las cosas que decidiste?,,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_EJECUCION,X
+209,1,9,3,PROFILE_H,OPTION,¿Crees que tienes una actitud más positiva hacia ti mismo?,No,Sí,,,,AUTOIMAGEN_AUTOESTIMA,
+210,1,,,,OPTION,¿Te sientes ahora más comprometido con el plan de acción para lograr tu objetivo?,No,Sí,,,,OBJETIVO_COMPROMISO,
+211,1,10,1,PROFILE_H,OPTION,¿Te sientes más positivo frente a tu entorno?,No,Sí,,,,ACTITUD_POSITIVIDAD,
+212,1,,,,OPTION,¿Te sientes más vinculado con tu objetivo?,No,Sí,,,,OBJETIVO_VINCULACION,
+213,1,10,2,PROFILE_H,OPTION,¿Te sientes más activo en tu entorno?,No,Sí,,,,ACTITUD_DINAMISMO,
+214,1,,,,OPTION,"En general, ¿Te sientes más motivado?",No,Sí,,,,MOTIVACION_PERSONAL,
+215,1,10,3,PROFILE_H,OPTION,¿Te sientes más capaz de enfrentarte a los rechazos?,No,Sí,,,,ACTITUD_VALENTIA,
+216,1,,,,OPTION,¿Te gustaría seguir con Yump?,No,Sí,,,,,
+217,1,7,1,PROFILE_I,OPTION,¿Cómo de vinculado te sientes con el objetivo que te has marcado?,,,,"Nada
+Algo
+Mucho
+Bastante",,OBJETIVO_VINCULACION,
+218,1,,,,TEXT,"En general, ¿Buscas formas de superar tus propias metas?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,AUTOIMAGEN_SUPERACION,
+219,1,7,2,PROFILE_I,TEXT,"En general, ¿Consideras que aplazas tomar decisiones?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_TOMA,X
+220,1,,,,TEXT,"En los últimos días, ¿cómo de motivado te sientes?",,,,"Nada
+Algo
+Mucho
+Totalmente",,MOTIVACION_PERSONAL,
+221,1,7,3,PROFILE_I,TEXT,¿Qué porcentaje de tu objetivo crees que vas a conseguir?,,,,"0 - 25%
+25 - 50%
+50 - 75%
+75 - 100%
+100 - 125%
+125 - 150%",,OBJETIVO_PROBABILIDAD,
+222,1,,,,TEXT,"Generalmente, ¿Retrasas poner en práctica una decisión que ya has tomado?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_EJECUCION,X
+223,1,8,1,PROFILE_I,OPTION,¿Te sientes comprometido con el plan de acción para lograr tu objetivo?,No,Sí,,,,OBJETIVO_COMPROMISO,
+224,1,,,,OPTION,¿Cómo de vinculado te sientes con el objetivo que te has marcado?,,,,"Nada
+Algo
+Mucho
+Bastante",,OBJETIVO_VINCULACION,
+225,1,8,2,PROFILE_I,TEXT,"Antes de tomar una decisión, ¿Evalúas todos los detalles, aunque sean triviales?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_TOMA,X
+226,1,,,,TEXT,"En general, ¿Buscas formas de superar tus propias metas?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,AUTOIMAGEN_SUPERACION,
+227,1,8,3,PROFILE_I,TEXT,Estoy involucrado con mi trabajo...,,,,"Porque disfruto de las actividades diarias que desarrollo
+Por la satisfacción que siento al proponerme y lograr retos
+Por el reconocimiento que obtengo
+Porque me aporta seguridad o un buen estilo de vida",,MOTIVACION_LABORAL,
+228,1,,,,OPTION,¿Crees que puedes resolver problemas difíciles si te esfuerzas lo suficiente?,No,Sí,,,,AUTOIMAGEN_AUTOEFICACIA,
+229,1,9,1,PROFILE_I,TEXT,¿Qué porcentaje de tu objetivo crees que vas a conseguir?,,,,"0 - 25%
+25 - 50%
+50 - 75%
+75 - 100%
+100 - 125%
+125 - 150%",,OBJETIVO_PROBABILIDAD,
+230,1,,,,OPTION,¿Crees que has aumentado tu deseo de mejorar?,No,Sí,,,,AUTOIMAGEN_SUPERACION,
+231,1,9,2,PROFILE_I,OPTION,¿Te sientes más vinculado con tu objetivo?,No,Sí,,,,OBJETIVO_VINCULACION,
+232,1,,,,TEXT,¿Sueles pensar que es demasiado tarde para hacer las cosas que decidiste?,,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_EJECUCION,X
+233,1,9,3,PROFILE_I,OPTION,¿Crees que tienes una actitud más positiva hacia ti mismo?,No,Sí,,,,AUTOIMAGEN_AUTOESTIMA,
+234,1,,,,OPTION,¿Te sientes ahora más comprometido con el plan de acción para lograr tu objetivo?,No,Sí,,,,OBJETIVO_COMPROMISO,
+235,1,10,1,PROFILE_I,OPTION,¿Te sientes más positivo frente a tu entorno?,No,Sí,,,,ACTITUD_POSITIVIDAD,
+236,1,,,,OPTION,¿Te sientes más vinculado con tu objetivo?,No,Sí,,,,OBJETIVO_VINCULACION,
+237,1,10,2,PROFILE_I,OPTION,¿Te sientes más activo en tu entorno?,No,Sí,,,,ACTITUD_DINAMISMO,
+238,1,,,,OPTION,"En general, ¿Te sientes más motivado?",No,Sí,,,,MOTIVACION_PERSONAL,
+239,1,10,3,PROFILE_I,OPTION,¿Te sientes más capaz de enfrentarte a los rechazos?,No,Sí,,,,ACTITUD_VALENTIA,
+240,1,,,,OPTION,¿Te gustaría seguir con Yump?,No,Sí,,,,,
+241,1,7,1,PROFILE_J,OPTION,¿Cómo de vinculado te sientes con el objetivo que te has marcado?,,,,"Nada
+Algo
+Mucho
+Bastante",,OBJETIVO_VINCULACION,
+242,1,,,,TEXT,"En general, ¿Buscas formas de superar tus propias metas?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,AUTOIMAGEN_SUPERACION,
+243,1,7,2,PROFILE_J,TEXT,"En general, ¿Consideras que aplazas tomar decisiones?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_TOMA,X
+244,1,,,,TEXT,"En los últimos días, ¿cómo de motivado te sientes?",,,,"Nada
+Algo
+Mucho
+Totalmente",,MOTIVACION_PERSONAL,
+245,1,7,3,PROFILE_J,TEXT,¿Qué porcentaje de tu objetivo crees que vas a conseguir?,,,,"0 - 25%
+25 - 50%
+50 - 75%
+75 - 100%
+100 - 125%
+125 - 150%",,OBJETIVO_PROBABILIDAD,
+246,1,,,,TEXT,"Generalmente, ¿Retrasas poner en práctica una decisión que ya has tomado?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_EJECUCION,X
+247,1,8,1,PROFILE_J,OPTION,¿Te sientes comprometido con el plan de acción para lograr tu objetivo?,No,Sí,,,,OBJETIVO_COMPROMISO,
+248,1,,,,OPTION,¿Cómo de vinculado te sientes con el objetivo que te has marcado?,,,,"Nada
+Algo
+Mucho
+Bastante",,OBJETIVO_VINCULACION,
+249,1,8,2,PROFILE_J,TEXT,"Antes de tomar una decisión, ¿Evalúas todos los detalles, aunque sean triviales?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_TOMA,X
+250,1,,,,TEXT,"En general, ¿Buscas formas de superar tus propias metas?",,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,AUTOIMAGEN_SUPERACION,
+251,1,8,3,PROFILE_J,TEXT,Estoy involucrado con mi trabajo...,,,,"Porque disfruto de las actividades diarias que desarrollo
+Por la satisfacción que siento al proponerme y lograr retos
+Por el reconocimiento que obtengo
+Porque me aporta seguridad o un buen estilo de vida",,MOTIVACION_LABORAL,
+252,1,,,,OPTION,¿Crees que puedes resolver problemas difíciles si te esfuerzas lo suficiente?,No,Sí,,,,AUTOIMAGEN_AUTOEFICACIA,
+253,1,9,1,PROFILE_J,TEXT,¿Qué porcentaje de tu objetivo crees que vas a conseguir?,,,,"0 - 25%
+25 - 50%
+50 - 75%
+75 - 100%
+100 - 125%
+125 - 150%",,OBJETIVO_PROBABILIDAD,
+254,1,,,,OPTION,¿Crees que has aumentado tu deseo de mejorar?,No,Sí,,,,AUTOIMAGEN_SUPERACION,
+255,1,9,2,PROFILE_J,OPTION,¿Te sientes más vinculado con tu objetivo?,No,Sí,,,,OBJETIVO_VINCULACION,
+256,1,,,,TEXT,¿Sueles pensar que es demasiado tarde para hacer las cosas que decidiste?,,,,"Nunca
+Algunas veces
+A menudo
+Siempre",,ACCION_EJECUCION,X
+257,1,9,3,PROFILE_J,OPTION,¿Crees que tienes una actitud más positiva hacia ti mismo?,No,Sí,,,,AUTOIMAGEN_AUTOESTIMA,
+258,1,,,,OPTION,¿Te sientes ahora más comprometido con el plan de acción para lograr tu objetivo?,No,Sí,,,,OBJETIVO_COMPROMISO,
+259,1,10,1,PROFILE_J,OPTION,¿Te sientes más positivo frente a tu entorno?,No,Sí,,,,ACTITUD_POSITIVIDAD,
+260,1,,,,OPTION,¿Te sientes más vinculado con tu objetivo?,No,Sí,,,,OBJETIVO_VINCULACION,
+261,1,10,2,PROFILE_J,OPTION,¿Te sientes más activo en tu entorno?,No,Sí,,,,ACTITUD_DINAMISMO,
+262,1,,,,OPTION,"En general, ¿Te sientes más motivado?",No,Sí,,,,MOTIVACION_PERSONAL,
+263,1,10,3,PROFILE_J,OPTION,¿Te sientes más capaz de enfrentarte a los rechazos?,No,Sí,,,,ACTITUD_VALENTIA,
+264,1,,,,OPTION,¿Te gustaría seguir con Yump?,No,Sí,,,,,

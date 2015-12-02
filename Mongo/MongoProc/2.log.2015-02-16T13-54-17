@@ -1,0 +1,23 @@
+Mon Feb 16 14:54:06.703 [initandlisten] MongoDB starting : pid=5494 port=27018 dbpath=/home/carlos/Documentos/Mongo/MongoProc/./data/rs2 64-bit host=carlos-W35xSS-370SS
+Mon Feb 16 14:54:06.703 [initandlisten] db version v2.4.9
+Mon Feb 16 14:54:06.703 [initandlisten] git version: nogitversion
+Mon Feb 16 14:54:06.703 [initandlisten] build info: Linux orlo 3.2.0-58-generic #88-Ubuntu SMP Tue Dec 3 17:37:58 UTC 2013 x86_64 BOOST_LIB_VERSION=1_54
+Mon Feb 16 14:54:06.703 [initandlisten] allocator: tcmalloc
+Mon Feb 16 14:54:06.703 [initandlisten] options: { dbpath: "./data/rs2", fork: true, logpath: "2.log", oplogSize: 64, port: 27018, replSet: "m101", smallfiles: true }
+Mon Feb 16 14:54:06.703 [initandlisten] exception in initAndListen: 10296 
+*********************************************************************
+ ERROR: dbpath (/home/carlos/Documentos/Mongo/MongoProc/./data/rs2) does not exist.
+ Create this directory or give existing directory in --dbpath.
+ See http://dochub.mongodb.org/core/startingandstoppingmongo
+*********************************************************************
+, terminating
+Mon Feb 16 14:54:06.703 dbexit: 
+Mon Feb 16 14:54:06.703 [initandlisten] shutdown: going to close listening sockets...
+Mon Feb 16 14:54:06.703 [initandlisten] shutdown: going to flush diaglog...
+Mon Feb 16 14:54:06.703 [initandlisten] shutdown: going to close sockets...
+Mon Feb 16 14:54:06.703 [initandlisten] shutdown: waiting for fs preallocator...
+Mon Feb 16 14:54:06.703 [initandlisten] shutdown: lock for final commit...
+Mon Feb 16 14:54:06.703 [initandlisten] shutdown: final commit...
+Mon Feb 16 14:54:06.703 [initandlisten] shutdown: closing all files...
+Mon Feb 16 14:54:06.703 [initandlisten] closeAllFiles() finished
+Mon Feb 16 14:54:06.703 dbexit: really exiting now
